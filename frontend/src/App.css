@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('./img/pharmit_background_3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #707c79;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/* Signuo login form  */
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+  font-size: 15px;
+}
+
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.login-form h2 {
+  margin: 0 0 15px;
+}
+
+.form-control,
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* front page App Name Display */
+
+.front-page {
+  text-align: center;
+}
+
+.sign-up-button {
+  color: rgb(232, 230, 227);
+  background-color: rgb(2, 80, 196);
+  border-color: rgb(1, 71, 174);
+  margin-top: 50px;
+}
+
+/* Title font */

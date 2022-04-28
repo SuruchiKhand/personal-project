@@ -1,0 +1,57 @@
+.better-radio {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: lightgrey;
+}
+
+.better-radio:checked+label {
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.center {
+  border-color: rgb(223 223 208);
+  display: inline-block;
+  position: relative;
+
+}
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: gainsboro;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #305a1769;
+  ;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 6px;
+  text-align: center;
+  background-color: #2d3835;
+  color: white;
+}
